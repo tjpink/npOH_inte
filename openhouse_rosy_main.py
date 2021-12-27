@@ -23,7 +23,7 @@ class RobotGui:
         self.window.bind("<Escape>", lambda event: self.displayface_off())
 
         # open house button
-        self.photo = ImageTk.PhotoImage(file="images/ngeeann_portrait.PNG")
+        self.photo = ImageTk.PhotoImage(file="images/ngeeann_portrait_2.png")
         self.usherbutton = tk.Button(self.window, text="", command=self.openhouse_move, image=self.photo, width=1080,
                                      height=1920, compound="c", font='TkDefaultFont 40 bold', bg='white',
                                      fg='red', borderwidth=0)
